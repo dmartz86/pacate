@@ -3,7 +3,7 @@ class Book {
   constructor() {}
 
   doAction(value: string) {
-    alert(value);
+    console.log(value);
   }
 }
 
