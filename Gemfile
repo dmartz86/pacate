@@ -49,4 +49,5 @@ group :development, :test do
   gem 'teaspoon-jasmine'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem 'jasmine'
 end
