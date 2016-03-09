@@ -9,6 +9,8 @@ Rails.application.config.assets.precompile += %w( turbolinks.self.js )
 Rails.application.config.assets.precompile += %w( books.self.js )
 Rails.application.config.assets.precompile += %w( application.self.js )
 Rails.application.config.assets.precompile += %w( spec_helper.self.js )
+Rails.application.config.assets.precompile += %w( insta.self.js )
+Rails.application.config.assets.precompile += %w( library.self.js )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
