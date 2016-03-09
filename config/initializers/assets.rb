@@ -2,15 +2,18 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
-Rails.application.config.assets.precompile += %w( support/phantomjs-shims.self.js )
-Rails.application.config.assets.precompile += %w( jquery.self.js )
-Rails.application.config.assets.precompile += %w( jquery_ujs.self.js )
-Rails.application.config.assets.precompile += %w( turbolinks.self.js )
-Rails.application.config.assets.precompile += %w( books.self.js )
-Rails.application.config.assets.precompile += %w( application.self.js )
-Rails.application.config.assets.precompile += %w( spec_helper.self.js )
-Rails.application.config.assets.precompile += %w( insta.self.js )
-Rails.application.config.assets.precompile += %w( library.self.js )
+javascript_files = %w{
+ support/phantomjs-shims.self.js
+ jquery.self.js
+ jquery_ujs.self.js
+ turbolinks.self.js
+ books.self.js
+ application.self.js
+ spec_helper.self.js
+ insta.self.js
+ library.self.js
+}
+Rails.application.config.assets.precompile += javascript_files
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
