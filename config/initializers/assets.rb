@@ -21,6 +21,8 @@ javascript_files = %w{
   react_ujs_event_setup.self.js
   react_ujs.self.js
   components.self.js
+  components/person.self.js
+  components/post.self.js
 }
 Rails.application.config.assets.precompile += javascript_files
 
