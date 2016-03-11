@@ -1,10 +1,17 @@
-# rails seed
+# RoR - Tests With Javascript Coverage
 This is a preconfigured project.
 
 ## tools
+````sh
+[ ] Coffee
+[ ] React
+[ ] Cucumber
+[ ] Jasmine
+[ ] Teaspoon
+````
 
 ## coverage
-Add your JavaScript files to
+Register your JavaScript files to
 ````sh
 config/initializers/assets.rb
 ````
